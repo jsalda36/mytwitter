@@ -1,11 +1,11 @@
 ﻿# mytwitter
 
-Semana 1.
+Semana 1
   - Aprendizaje y poder revisar algunos moocs, revisión y decisión de lenguajes a usar.etc.
-Semana 2.
+Semana 2
   - Ensayo de uso de la VPN, al igual que uso de las credenciales, nuevamente mirar los moocs con el fin de tomar la decisión de dicho mooc a realizar.
   - Selección de tecnología (Mongo DB y Nodejs)
-Semana 3.
+Semana 3
   - Selección del mooc 
   https://alison.com/es/curso/introduccion-a-devops-revisado
 
