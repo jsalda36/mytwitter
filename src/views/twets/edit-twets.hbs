@@ -1,0 +1,22 @@
+<div class="col-md-4 mx-auto">
+    <div class="card">
+        <div class="card-header">
+        <h3>Editar Twet</h3>
+        </div>
+    <div class="card-body">
+        <form action="/twets/edit-twets/{{tweters._id}}?_method=PUT" method="POST">
+        <input type="hidden" name="_method" value="PUT">
+        <div class="form-group">
+            <textarea type="text" name="texto" class="form-control" placeholder="Texto">
+            {{tweters.texto}}
+            </textarea>
+        </div>
+        <div class="form-group">
+            <button class="btn btn-primary btn-block" type="submit">
+                Actualizar
+            </button>
+        </div>
+        </form>
+    </div>
+    </div>
+</div>

@@ -1,0 +1,32 @@
+<div class="row">
+    {{#each twets}}
+    <br>
+    <br>
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body" >
+                <h4 class="card-title d-flex justify-content-between aling-items-center">
+                    {{texto}}<i class="fas fa-broom"></i>
+                </h4>
+                <p>
+                    {{date}}
+                </p>
+                <a class="btn btn-dark btn-sm" href="/twets/edit/{{_id}}">Modificar</a>
+                <form action="/twets/borrar/{{_id}}?_method=DELETE" method="POST">
+                <input type="hidden" name="_method" value="DELETE">
+                <button type="submit" class="btn btn-danger btn-sm">Borrar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    {{else}}
+    <div class="card mx-auto">
+        <div class="card-body">
+            <p class="lead">
+                Sin twets
+            </p>
+            <a href="/twets/add" class="btn btn-success btn-block">Haz tu primer Twet</a>
+        </div>
+    </div>
+    {{/each}}
+</div>
