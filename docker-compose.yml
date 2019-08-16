@@ -1,6 +1,5 @@
 version: "2"
 services: 
-
   web:
     restart: always
     build: .
@@ -12,8 +11,8 @@ services:
   mon:
     image: mongo
     ports:
-      - "27017:27017"
+     - "27017:27017"
     volumes:
-      - ./data:/data/mon
+      - ./data:/data/mongo
 
     
