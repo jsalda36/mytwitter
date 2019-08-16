@@ -1,4 +1,4 @@
-FROM node:8-alphine
+FROM node:8-alpine
 
 WORKDIR /usr/src/twetter
 
